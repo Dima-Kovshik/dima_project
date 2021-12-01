@@ -2,52 +2,152 @@
 font-family: Gilroy-Bold;
 font-size: 18px;
 line-height: 22px;
-margin-top: 15%;
 text-align: center;
+display: inline-block;
 }
 .about{
 font-family: Gilroy-Bold;
 font-size: 18px;
 line-height: 22px;
-margin-top: 15%;
 text-align: center;
+display: inline-block;
 }
 .skil{
 font-family: Gilroy-Bold;
 font-size: 18px;
 line-height: 22px;
-margin-top: 15%;
 text-align: center;
+display: inline-block;
 }
 .port{
 font-family: Gilroy-Bold;
 font-size: 18px;
 line-height: 22px;
-margin-top: 15%;
 text-align: center;
+display: inline-block;
 }
 .cont{
 font-family: Gilroy-Bold;
 font-size: 18px;
 line-height: 22px;
-margin-top: 15%;
 text-align: center;
+display: inline-block;
 }
+/*---------------------------------------*/
+/*-----------------------------------------*/
+@media only screen and (max-width: 768px) {
+  header, .home, .about, .skil, .port, .cont, .vector, .language{
+        display: none;
+    }
+    .uxui{
+      display: block;
+    }
+    .img1{
+      display: none;
+    }
+    .img2{
+      width: 316.5px;
+      height: 478px;
+    }
+    .group2{
+      text-align: center;
+    }
+    .arc{
+      display: block;
+      text-align: center;
+    }
+    .ranang{
+      text-align: center;
+    }
+    .portfolio-image{
+      width: 90%;
+    }
+}
+@media (min-width: 768px){
+  header, .blok, .group2, .frame{
+    text-align: center;
+  }
+  .home, .about, .skil, .port{
+    margin-right: 140px;
+  }
+  .denn, .uxui{
+    margin-right: 290px;
+  }
+  .group2{
+    margin-top: 25px;
+  }
+  .language{
+  transform: rotate(-90deg);
+  display: inline-block;
+  }
+  .uxui{
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  text-align: center;
+  display: inline-block;
+  }
+  .img1{
+  width: 943.61px;
+  height: 387px;
+  left: 10px;
+  top: 10px;
+  border: 1px solid #000000;
+  padding: 10px;
+  }
+  .img2{
+    display: none;
+  }
+  .arc{
+    display: inline-block;
+    padding-top: 40px;
+    width: 166.46px;
+  }
+  .ranang{
+    text-align: center;
+  }
+  .rating{
+  height: 206.29px;
+  margin-right: 70px;
+  }
+  .rating2{
+  height: 206.27px;
+  margin-right: 35px;
+  }
+  .rating3{
+  height: 206.27px;
+  margin-left: 35px;
+  }
+  .rating4{
+  height: 205.27px;
+  margin-left: 70px;
+  }
+  .portfolio-image{
+    width: 70%;
+    margin-top: 50px;
+  }
+}
+
+
+/*----------------------------------------*/
 /*-------------------------------------------------------------*/
 body{
-  position: absolute;
-width: 1445px;
-height: 4759px;
+padding-bottom: 40px;
 left: 0px;
 top: 0px;
 }
-
+.portfolio-text{
+  padding-top: 50px;
+}
 .vector{
   text-align: center;
-width: 100%;
+width: 70%;
+margin-left: 15%;
 height: 0px;
 border: 1px solid #828282;
 transform: matrix(1, 0, 0, 1, 0, 0);
+margin-top: 25px;
 }
 /*----------------------------------------------------------------*/
 .denn{
@@ -56,124 +156,67 @@ font-size: 47.3392px;
 line-height: 59px;
 color: #070707;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: inline-block;
 }
 
-.uxui{
-font-family: Gilroy-Medium;
-font-size: 18px;
-line-height: 22px;
-color: #070707;
-text-align: center;
-margin-top: 10%;
-}
 
-.language{
-  margin-top: 40%;
-  margin-left: 60%;
-transform: rotate(-90deg);
-}
-
+/*--------------------------------------------------------*/
 .img1{
   position: static;
 width: 943.61px;
 height: 387px;
 left: 10px;
 top: 10px;
+border: 1px solid #000000;
+padding: 10px;
 }
-
-.group2{
-  position: absolute;
-width: 963.61px;
-height: 407px;
-/*left: 240.69px;*/
-top: 26px;
-
+.portfolio-link{
+  margin-top: 40px
 }
-
-.frame{
-  /* Inside Auto Layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 10px 0px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 10px;
-
-  position: absolute;
-  width: 963.61px;
-  height: 407px;
-  left: 240.69px;
-  top: 266.94px;
-
-  background: #FFFFFF;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-}
-
+/*----------------------------------------------*/
 .scrin2{
-  position: absolute;
-width: 1445px;
+
 height: 506px;
 left: 0px;
 top: 768px;
 }
 .rectan{
-  position: absolute;
-width: 1445px;
 height: 100%;
 left: 0px;
 background: #F6F6F6;
 }
 .abb{
-  position: absolute;
-left: 44.68%;
-right: 44.54%;
-top: 18.66%;
-bottom: 80.43%;
+padding-top: 90px;
 
 font-family: Gilroy-Bold;
 font-size: 34px;
 line-height: 42px;
 text-align: center;
 }
+.marg{
+  padding-top: 30px;
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+}
 .abb1{
-  position: absolute;
-width: 485.34px;
-height: 218px;
-left: 480.33px;
-top: 170px;
 
 font-family: Gilroy-Medium;
 font-size: 18px;
 line-height: 22px;
 text-align: center;
 }
-
+/*----------------------------------------*/
 .skills{
-  position: absolute;
-left: 45.8%;
-right: 45.59%;
-top: 28.68%;
-bottom: 70.77%;
 font-family: Gilroy-Bold;
 font-size: 34px;
 line-height: 42px;
 text-align: center;
 color: #070707;
+padding-top: 50px;
 }
 .work{
-  position: absolute;
-left: 42.18%;
-right: 42.04%;
-top: 30.68%;
-bottom: 68.81%;
-
+  padding-top: 35px;
 font-family: Gilroy-Medium;
 font-size: 18px;
 line-height: 22px;
@@ -185,70 +228,14 @@ color: #070707;
 /* --------------------------------------    */
 
 
-.rating-area {
-	overflow: hidden;
-	width: 265px;
-	margin: 0 auto;
-  top: 85%;
-    position: absolute;
-    left: -42%;
-}
-.rating-area:not(:checked) > input {
-	display: none;
-}
-.rating-area:not(:checked) > label {
-	float: right;
-	width: 42px;
-	padding: 0;
-	cursor: pointer;
-	font-size: 32px;
-	line-height: 32px;
-	color: lightgrey;
-	text-shadow: 1px 1px #bbb;
-}
-.rating-area:not(:checked) > label:before {
-	content: '★';
-}
-.rating-area > input:checked ~ label {
-	ccolor: #070707;
-	text-shadow: 1px 1px #070707;
-}
-.rating-area:not(:checked) > label:hover,
-.rating-area:not(:checked) > label:hover ~ label {
-	color: #070707;
-}
-.rating-area > input:checked + label:hover,
-.rating-area > input:checked + label:hover ~ label,
-.rating-area > input:checked ~ label:hover,
-.rating-area > input:checked ~ label:hover ~ label,
-.rating-area > label:hover ~ input:checked ~ label {
-	color: #070707;
-	text-shadow: 1px 1px #070707;
-}
-.rate-area > label:active {
-	position: relative;
-}
-.rating{
-  position: absolute;
-width: 166.46px;
-height: 206.29px;
-left: 255.71px;
-top: 1566.65px;
-}
+
+
 
 .ps{
-  position: absolute;
 width: 89.07px;
 height: 88.41px;
-left: 25%;
 }
 .ps1{
-  position: absolute;
-left: 33%;
-right: 74.15%;
-top: 45%;
-bottom: 64.14%;
-
 font-family: Gilroy-Bold;
 font-size: 14px;
 line-height: 17px;
@@ -257,39 +244,17 @@ text-align: center;
 color: #828282;
 }
 
-.rating2{
-  position: absolute;
-width: 166.46px;
-height: 206.27px;
-left: 512.42px;
-top: 1567.67px;
-}
-.rating3{
-  position: absolute;
-width: 166.46px;
-height: 206.27px;
-left: 769.13px;
-top: 1567.67px;
-}
-.rating4{
-  position: absolute;
-width: 166.46px;
-height: 205.27px;
-left: 1025.84px;
-top: 1567.67px;
-}
- /*------------------------------------------------------------*/
-.rectangle2{
-  position: absolute;
-width: 1445px;
-height: 2253px;
-left: 0px;
-top: 1884px;
 
+ /*------------------------------------------------------------*/
+
+.rectangle2{
+display: block;
+padding-bottom: 50px;
+text-align: center;
 background: #F6F6F6;
 }
 .portfolio{
-  position: absolute;
+display: block;display: block;
 left: 45.62%;
 right: 45.21%;
 top: 5%;
@@ -301,16 +266,14 @@ text-align: center;
 color: #070707;
 }
 .folio1{
-  position: absolute;
+display: block;
 width: 936.24px;
 height: 510px;
 left: 257.71px;
 top: 10%;
-
-background: url(../image/portfolio.png);
 }
 .link1{
-  position: absolute;
+display: block;
 left: 40.79%;
 right: 40.1%;
 top: 33%;
@@ -327,7 +290,7 @@ text-decoration-line: underline;
 color: #070707;
 }
 .folio2{
-  position: absolute;
+display: block;
 width: 936.24px;
 height: 522px;
 left: 256.89px;
@@ -335,7 +298,7 @@ top: 39%;
 background: url(../image/portfolio2.png);
 }
 .link2{
-  position: absolute;
+display: block;
 left: 43.36%;
 right: 42.6%;
 top: 63%;
@@ -352,7 +315,7 @@ text-decoration-line: underline;
 color: #070707;
 }
 .folio3{
-  position: absolute;
+display: block;
 width: 936.24px;
 height: 522px;
 left: 252.7px;
@@ -360,7 +323,7 @@ top: 69%;
 background: url(../image/portfolio3.png);
 }
 .link3{
-  position: absolute;
+display: block;
 left: 41.42%;
 right: 40.65%;
 top: 93%;
@@ -380,88 +343,47 @@ color: #070707;
 /*----------------------------------------------------------------*/
 
 .foot1{
-  position: absolute;
-left: 44.89%;
-right: 45.03%;
-top: 89.33%;
-bottom: 9.76%;
-
 font-family: Gilroy-Bold;
 font-size: 34px;
 line-height: 42px;
 text-align: center;
-
-/* Black */
-
 color: #070707;
 }
 .foot2{
-  position: absolute;
-left: 40.86%;
-right: 40.1%;
-top: 90.66%;
-bottom: 8.42%;
-
 font-family: Gilroy-Medium;
 font-size: 18px;
 line-height: 22px;
 text-align: center;
-
-/* Black */
-
 color: #070707;
 }
 .foot3{
-  position: absolute;
-width: 180.5px;
-height: 42px;
-left: 634.76px;
-top: 4410px;
-
 font-family: Gilroy-Bold;
 font-size: 18px;
 line-height: 22px;
-/* identical to box height */
-
 text-align: center;
-
 color: #FFFFFF;
 background: #070707;
 border-radius: 25px;
+margin-top: 20px;
+margin-bottom: 20px;
 }
-
+.footer{
+  text-align: center;
+}
 .link_mes1{
-  position: absolute;
-padding-left: 38.2%;
-top: 4515.78px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 35px;
 }
-.link_mes2{
-  position: absolute;
-padding-left: 45%;
-top: 4515.78px;
+.footer-position{
+  display: block;
+  text-align: center;
+  padding-top: 25px;
 }
-.link_mes3{
-  position: absolute;
-padding-left: 52%;
-top: 4515.78px;
-}
-.link_mes4{
-  position: absolute;
-padding-left: 59%;
-top: 4515.78px;
-}
-
 .foot4{
-  position: absolute;
-left: 41.83%;
-right: 41.35%;
-top: 96.7%;
-bottom: 2.59%;
-
 font-family: Gilroy-Medium;
 font-size: 14px;
 line-height: 17px;
 text-align: center;
-
 color: #828282;
 }
